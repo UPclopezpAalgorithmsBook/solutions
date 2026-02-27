@@ -1,0 +1,19 @@
+1. Ordena las siguientes palabras de acuerdo a como debe ser la estructura que debe llevar un
+algoritmo. Nota: puede sobrar una palabra.
+    (1) Inicio
+    (2) Entrada de datos
+    (3) Procesos
+    (4) Salidas
+    (5) Fin
+
+2. Es un conjunto de instrucciones detalladas, paso a paso, que resuelven un problema.
+    (b) Algoritmo
+
+3. Es el lenguaje hablado y/o escrito para propósitos de comunicación.
+    (a) Pseudocódigo
+
+4. Es muy parecido a los lenguajes de programación pero, se caracteriza porque es un falso lenguaje.
+    (b) Pseudocódigo
+
+5. Es la representación gráfica de un algoritmo.
+    (e) Diagrama de flujo
