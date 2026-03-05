@@ -1,0 +1,16 @@
+1. De acuerdo al siguiente bloque DFD, ¿Qué imprime lo siguiente?
+    Tu nombre es:
+    name
+    apellido
+
+2. De acuerdo al siguiente bloque DFD, ¿Qué imprime lo siguiente?
+    Tu nombre es:
+    Gian
+    López
+
+3. ¿Cuál es la diferencia?
+    Que en el primer DFD se usan comillas en name y apellido, lo que los hace strings
+    Que en el Segundo DFD no usa comillas en name y apellido, por lo que se llama a la variable
+
+4. De acuerdo al siguiente DFD, escribe lo que se imprime:
+    Hola mundo

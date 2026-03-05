@@ -1,0 +1,67 @@
+1. Relaciona con una línea ambas columnas:
+    1. x < y  -- a) x es menor que y
+    2. x > y  -- d) x es mayor que y
+    3. x == y -- c) x es igual que y
+    4. x ≤ y  -- e) x es menor o igual que y
+    5. x ≥ y  -- f) x es mayor o igual que 
+    6. x = y  -- g) Es una asignación: x toma el valor de y
+    7. x ∧ y  -- b) x and y
+
+2. Evalúa si la siguiente expresión se evalúa como Verdadero, Falso u Otro.
+Asume los siguientes valores: x = 10, y = 20
+
+    (a) (x < y)
+        Respuesta: Verdadero
+
+    (b) (x > y)
+        Respuesta: Falso
+
+    (c) (x == y)
+        Respuesta: Falso
+
+    (d) (x ≤ y)
+        Respuesta: Verdadero
+
+    (e) (x ≥ y)
+        Respuesta: Falso
+
+    (f) (x = y)
+        Respuesta: Otro
+
+    (g) (x ∧ y)
+        Respuesta: Otro
+
+3. ¿Cuál es el resultado de 5911 % 3?
+    (a) 1
+
+4. Es un ejemplo donde se aplica el operador de asignación
+    (b) a = 8;
+
+5. Resuelve lo siguiente: a=8, b=9
+    Tomando en cuenta el operador ==, ¿qué hace la siguiente expresión? a==b
+        (a) Compara si a es igual a b
+
+6. ¿Cuál es el resultado de 5911 % 5?
+    (a) 1
+
+7. De acuerdo a la siguiente expresión de concatenación, escribe el valor de la variable r:
+    a = "Algoritmos"
+    b = "y"
+    c = "Analisis"
+    d = "Diseno"
+    e = "de"
+    f = " " 
+    r = a + d
+
+    Respuesta: AlgoritmosDiseno
+
+8. De acuerdo a la siguiente expresión de concatenación, escribe el valor de la variable r:
+    a = "Algoritmos"
+    b = "y"
+    c = "Analisis"
+    d = "Diseno"
+    e = "de"
+    f = " " 
+    r = c + b + d + e + a
+
+    Respuesta: AnalisisyDisenodeAlgoritmos

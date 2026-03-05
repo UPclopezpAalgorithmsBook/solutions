@@ -1,0 +1,22 @@
+1. ¿Cuándo utilizar un pseudocódigo?
+    Se utiliza cuando se quiere describir paso a paso la lógica de un algoritmo antes de programarlo. 
+    Sirve para planear la solución de un problema de forma clara sin preocuparse todavía por la sintaxis 
+    de un lenguaje de programación específico.
+
+2. ¿Qué significa DFD?
+    DFD significa Diagrama de Flujo de Datos.
+
+3. ¿Cuándo utilizar un DFD?
+    Se utiliza cuando se quiere analizar o diseñar un sistema, 
+    para entender cómo circula la información entre procesos, 
+    bases de datos y entidades externas. Es muy común en análisis de sistemas.
+
+4. ¿Por qué los pseudocódigos son flexibles?
+    Porque no tienen una sintaxis estricta como los lenguajes de programación.
+    Se pueden escribir usando lenguaje natural combinado con estructuras básicas (si, mientras, repetir, etc.), 
+    lo que permite adaptarlos fácilmente a diferentes estilos o necesidades.
+
+5. ¿Por qué los DFD’s son medianamente flexibles?
+    Porque aunque permiten representar un sistema de varias formas, 
+    deben seguir ciertos símbolos y reglas estándar (procesos, flujos de datos, almacenes y entidades externas). 
+    Esto limita un poco la libertad comparado con el pseudocódigo.

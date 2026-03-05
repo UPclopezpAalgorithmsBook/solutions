@@ -1,0 +1,11 @@
+1. De acuerdo a la siguiente instrucción lógica, selecciona cuál es el valor de r:
+    (b) Falso
+
+2. De acuerdo a la siguiente instrucción lógica, selecciona cuál es el valor de r:
+    (a) Verdadero
+
+3. De acuerdo a la siguiente instrucción lógica, selecciona cuál es el valor de r:
+    (a) Verdadero
+
+4. De acuerdo a la siguiente instrucción lógica, selecciona cuál es el valor de r:
+    (b) Falso

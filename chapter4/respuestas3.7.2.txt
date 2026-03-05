@@ -1,0 +1,19 @@
+1. Selecciona la respuesta adecuada, uniendo las dos columnas:
+    1. La dirección de las flechas nos indican:	           -- a) El orden de las instrucciones
+    2. La dirección común del diagrama de flujo debe ser:  -- d) De arriba hacia abajo, y de izquierda a derecha
+    3. De cada símbolo de proceso (rectángulo) solo puede: -- e) Salir una sola flecha de salida
+    4. A cada símbolo de decisión (rombo) solo puede:	   -- c) Llegar una sola flecha de entrada
+    5. De cada símbolo de decisión (rombo) puede salir:	   -- g) Dos o más flechas de salida
+    6. Al dibujar las líneas de flujo se debe de evitar:   -- f) Las intersecciones y los traslapes
+    7. Al terminar un diagrama de flujo es aconsejable:	   -- b) Evaluarlo haciendo un recorrido por el diagrama
+
+2. En un diagrama de flujo se empieza colocando:
+    (a) Inicio
+
+3. Selecciona la respuesta adecuada, uniendo las dos columnas:
+    1. Un proceso interno en la computadora (Ej. asignación) se representa por:	            -- a) Un rectángulo
+    2. Una entrada de datos se representa por:	                                            -- d) Un romboide o trapecio
+    3. Una pregunta de decisión con respuesta falso o cierto se representa con:	            -- c) Un rombo
+    4. Para conectar dos puntos de diagrama en diferente hoja o posición de la hoja se usa:	-- g) Un círculo con número o una letra
+    5. Para marcar el inicio o fin del diagrama se utiliza:	                                -- b) Un rectángulo con bordes redondeados
+    6. Cada elemento del diagrama se conecta con los demás elementos usando:	            -- e) Flechas
