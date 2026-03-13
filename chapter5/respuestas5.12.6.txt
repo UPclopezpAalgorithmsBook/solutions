@@ -1,0 +1,18 @@
+1. Realiza un programa que te imprima un número con los diferentes especificadores de formato.
+    #include <stdio.h>
+
+    int main() {
+
+        int numero = 124;
+        float decimal = 12.34;
+        char letra = 'A';
+
+        printf("Formato %%d (entero): %d\n", numero);
+        printf("Formato %%o (octal): %o\n", numero);
+        printf("Formato %%x (hexadecimal minuscula): %x\n", numero);
+        printf("Formato %%X (hexadecimal mayuscula): %X\n", numero);
+        printf("Formato %%f (decimal): %f\n", decimal);
+        printf("Formato %%c (caracter): %c\n", letra);
+
+        return 0;
+    }

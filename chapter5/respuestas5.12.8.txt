@@ -1,0 +1,40 @@
+1. Observa la siguiente figura y elige cuál de las siguientes afirmaciones es la respuesta:
+    (a) La instrucción de la izquierda y el símbolo de la derecha tratan sobre imprimir en pantalla
+
+2. Analiza el siguiente código:
+    Respuesta: 6610
+
+3. Analiza el siguiente código:
+    Respuesta: B
+
+4. Analiza el siguiente código:
+    Respuesta: x=65
+
+5. Analiza el siguiente código:
+    Respuesta: x=3
+
+6. Ver el siguiente ejemplo en DFD y tradúcelo a código de C++.
+
+    #include <iostream>
+    using namespace std;
+
+    int main() {
+        cout<<"Juan\n";
+        cout<<"Lopez\n";
+        cout<<"Id: 472021\n";
+        cout<<"ISC";
+        cout<<"Jalisco";
+    }
+
+7. Imprimir Datos Personales. Realiza un programa en lenguaje C++ que imprima tus datos
+de acuerdo a lo siguiente: Nombre, Apellido Paterno y Materno, Id, Carrera que estudias, Estado de la República de Nacimiento
+    #include <iostream>
+    using namespace std;
+
+    int main() {
+        cout<<"Iker\n";
+        cout<<"Ortiz Rojero\n";
+        cout<<"Id: 0263663\n";
+        cout<<"ISGC";
+        cout<<"Jalisco";
+    }

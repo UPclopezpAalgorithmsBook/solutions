@@ -1,0 +1,89 @@
+
+
+1. Considera la siguiente expresión: int a = 1
+¿Qué valor tiene la variable a después de las siguientes operaciones. Nota que cada operación
+es independiente.
+    (a) a+=2;
+        Respuesta: 3
+
+    (b) a+2;
+        Respuesta: 1
+
+    (c) a++;
+        Respuesta: 2
+
+    (d) a-=2;
+        Respuesta: -1
+
+2. De acuerdo a lo siguiente: int num1 = -5, num2 = -5, num3 = 3;
+Considera las siguientes operaciones como independientes y seleccione el valor de la asig-
+nación:
+    (a) num3 = num1 + num2;
+        Respuesta: -10
+
+    (b) num1 = num3 ∗ num3;
+        Respuesta: 9
+
+    (c) num2++;
+        Respuesta: -4
+
+    (d) num2 = num2 ∗ num1;
+        Respuesta: 25
+    
+    (e) num1 = num3 − num2;
+        Respuesta: 8
+    
+    (f) num3 = num1/num2;
+        Respuesta: 1
+    
+    (g) num2 = num3 % num1;
+        Respuesta: -2
+
+
+3. Elija la respuesta correcta relacionando ambas columnas:
+    1. a++;    d) a = a + 1;
+    2. b++;    f) b = b + 1
+    3. var++;  c) var = var + 1;
+    4. a−−;    b) a = a − 1;
+    5. b−−;    a) b = b − 1;
+    6. var−−;  e) var = var − 1;
+
+4. Realiza un programa que calcule el área y perímetro del cuadrado
+    #include <stdio.h>
+
+    int main() {
+        float lado, area, perimetro;
+
+        printf("Introduce el valor del lado del cuadrado: ");
+        scanf("%f", &lado);
+
+        area = lado * lado;
+        perimetro = 4 * lado;
+
+        printf("Area del cuadrado: %f\n", area);
+        printf("Perimetro del cuadrado: %f\n", perimetro);
+
+        return 0;
+    }
+
+5. Realiza un programa que calcule el área y perímetro del rectángulo
+    #include <stdio.h>
+
+    int main() {
+
+        float base, altura, area, perimetro;
+
+        printf("Introduce la base del rectangulo: ");
+        scanf("%f", &base);
+
+        printf("Introduce la altura del rectangulo: ");
+        scanf("%f", &altura);
+
+        area = base * altura;
+        perimetro = 2 * (base + altura);
+
+        printf("Area del rectangulo: %f\n", area);
+        printf("Perimetro del rectangulo: %f\n", perimetro);
+
+        return 0;
+    }

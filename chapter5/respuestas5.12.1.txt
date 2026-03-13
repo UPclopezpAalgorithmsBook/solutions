@@ -1,0 +1,27 @@
+1. Relaciona con una línea las dos columnas:
+    1. El compilador:                                       h) Traduce todas las instrucciones al mismo tiempo y si encuentra errores las indica
+    2. El intérprete:                                       i) Traduce cada instrucción por separado y es más lento
+    3. El archivo ejecutable está escrito en:               g) Código máquina o binario
+    4. El archivo ejecutable está escrito en:               d) Compilado
+    5. Cuando se usa un compilador, si se detecta errores:	c) No permite generarse el código ejecutable
+    6. El lenguaje C++ es un lenguaje:                      d) Compilado
+
+2. A las instrucciones que integran a un programa computacional se le denomina: 
+    (d) Código fuente
+
+3. Es un conjunto de instrucciones detalladas, paso a paso, que le indican a la computadora cómo
+resolver un problema o realizar una tarea y se encuentra compilado y listo para ejecutarse.
+    (c) Programa computacional
+
+4. Relaciona con una línea las dos columnas:
+    1. El archivo ejecutable es creado por:             a) El compilador
+    2. El archivo ejecutable está escrito en:           g) Código máquina o binario (código que entiende la computadora)
+    3. Una de las tareas de un compilador es:           e) Encontrar errores
+    4. El lenguaje de un ensamblador es un lenguaje de: b) Bajo nivel
+    5. El lenguaje C++ es un lenguaje de:               c) Alto nivel
+
+5. ¿Cuál es la extensión que debe llevar un archivo de un programa en C++, que se llama "programa"?
+    (a) programa.cpp
+
+6. Es el proceso que consiste en convertir un código computacional, libre de errores, en un archivo ejecutable:
+    (a) Compilación

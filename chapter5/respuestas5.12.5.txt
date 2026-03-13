@@ -1,0 +1,9 @@
+1. Ejecuta el siguiente código y convierte a DFD. → (dfd/dfd5.12.5_1.png)
+
+2. Observa el siguiente código, ¿Puedes encontrar el error?:
+    El error está en esta línea: c = '\n';
+    c es de tipo string no de tipo char
+
+3. Cuál es la diferencia entre los siguientes operadores? "<<;y" y "+"
+    "+" Se usa para sumar o concatenar valores.
+    "<<" Se usa para imprimir datos en pantalla

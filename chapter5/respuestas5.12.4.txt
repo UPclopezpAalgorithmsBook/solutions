@@ -1,0 +1,120 @@
+1. Relaciona correctamente el tipo de dato correcto para cada opción:
+    1. Variable mayor a 65536                                                a) int
+    2. Utilizarás un valor numérico con puntos decimales no mayor a 32 bits  e) float
+    3. Variable mayor a 0 y menor a 255                                      c) char
+    4. Variable mayor a 255 y menor a 65536                                  b) short int
+    5. Número con decimales y requieres más de 32 bits                       d) double
+
+2. Selecciona el identificador correcto para cada tipo de dato:
+    1. Entero        b) int
+    2. Flotante      c) float
+    3. Carácter      d) char
+    4. Entero corto  a) short int
+    5. Doble         e) double
+
+3. Relaciona correctamente las dos columnas:
+    1. Entero    b) 4 bytes o 32 bits
+    2. Char      d) 1 byte o 8 bits
+    3. Flotante  b) 4 bytes o 32 bits
+    4. Double    c) 8 bytes o 64 bits
+    5. Short     a) 2 bytes o 16 bits
+
+4. Relaciona correctamente las dos columnas:
+    1. Número de bits que tiene el tipo char
+        c) 8
+    2. Número de bits que tiene el tipo short int
+        b) 16
+
+5. Une con una línea el rango de valores que acepta cada tipo de dato:
+    1. Entero:   b) −2147483648 a 2147483647
+    2. Carácter  d) −128 a 127 ó 0 a 255
+    3. Flotante  c) +/ − 3.4e + / − 38
+    4. Doble     a) +/ − 1.7e + / − 308
+
+6. ¿Qué pasa si sumamos uno al límite máximo de cada tipo?
+    (b) Se vuelve negativo
+
+7. Obtener el tamaño en bytes de cada uno de los tipos de datos extendidos del lenguaje C++.
+    #include <stdio.h>
+
+    int main() {
+        printf("char: %zu bytes\n", sizeof(char));
+        printf("short: %zu bytes\n", sizeof(short));
+        printf("int: %zu bytes\n", sizeof(int));
+        printf("long: %zu bytes\n", sizeof(long));
+        printf("long long: %zu bytes\n", sizeof(long long));
+        printf("float: %zu bytes\n", sizeof(float));
+        printf("double: %zu bytes\n", sizeof(double));
+        printf("long double: %zu bytes\n", sizeof(long double));
+    }
+
+8. Obtener el tamaño en bits de cada uno de los tipos de datos extendidos del lenguaje C++.
+    #include <stdio.h>
+
+    int main() {
+        printf("char: %zu bits\n", sizeof(char)*8);
+        printf("short: %zu bits\n", sizeof(short)*8);
+        printf("int: %zu bits\n", sizeof(int)*8);
+        printf("long: %zu bits\n", sizeof(long)*8);
+        printf("long long: %zu bits\n", sizeof(long long)*8);
+        printf("float: %zu bits\n", sizeof(float)*8);
+        printf("double: %zu bits\n", sizeof(double)*8);
+        printf("long double: %zu bits\n", sizeof(long double)*8);
+
+    }
+
+9. Obtener el rango mínimo y máximo de cada tipo de dato en lenguaje C.
+    #include <stdio.h>
+    #include <limits.h>
+    #include <float.h>
+
+    int main() {
+        printf("char: %d a %d\n", CHAR_MIN, CHAR_MAX);
+        printf("short: %d a %d\n", SHRT_MIN, SHRT_MAX);
+        printf("int: %d a %d\n", INT_MIN, INT_MAX);
+        printf("long: %ld a %ld\n", LONG_MIN, LONG_MAX);
+
+        printf("float: %e a %e\n", FLT_MIN, FLT_MAX);
+        printf("double: %e a %e\n", DBL_MIN, DBL_MAX);
+
+    }
+
+10. Sumar dos números e imprimir su resultado.
+    #include <stdio.h>
+
+    int main() {
+        int a, b;
+
+        printf("Introduce dos numeros:\n");
+        scanf("%d %d", &a, &b);
+
+        printf("La suma es: %d\n", a+b);
+
+    }
+
+11. Almacenar en dos variables diferentes dos números mayores a 255. Imprimir en pantalla lo siguiente:
+    #include <stdio.h>
+
+    int main() {
+        int a, b;
+
+        printf("Introduce dos numeros mayores a 255:\n");
+        scanf("%d %d", &a, &b);
+
+        printf("Suma: %d\n", a+b);
+        printf("Resta: %d\n", a-b);
+        printf("Multiplicacion: %d\n", a*b);
+        printf("Division: %d\n", a/b);
+        printf("Residuo: %d\n", a%b);
+
+        if(a % 2 == 0)
+            printf("El numero %d es par\n", a);
+        else
+            printf("El numero %d es impar\n", a);
+
+        if(b % 2 == 0)
+            printf("El numero %d es par\n", b);
+        else
+            printf("El numero %d es impar\n", b);
+
+    }

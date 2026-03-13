@@ -1,0 +1,48 @@
+1. Declaración de una variable para guardar la letra ’r’:
+    (b) char var1 = ’r’;
+
+2. Declaración de una variable para guardar 3.1416:
+    (a) float pi = 3.1416;
+
+3. Relaciona correctamente las dos columnas
+    1. int var = 0;            b) declara y asigna el valor de 0 a la variable var
+    2. int var == 0;           e) no es una asignación, es una comparación y es erróneo
+    3. int var = 0, var1;      f) declara las variables var y var1, asignándole 0 a var y var1 tiene basura
+    4. int var = 0, var1 = 0;  d) declara las variables var y var1, y les asigna el valor de 0 a ambas
+    5. int var = 0, var1 = 1;  c) declara las variables var y var1, y le asigna el valor de 1 a var1 y a 0 a var
+    6. int var;                g) declara var, pero no le asigna valor, contiene basura
+    7. int var1;               a) declara la variable var1, pero no le asigna valor, contiene basura
+
+4. Relacione con una línea ambas columnas:
+    1. num3 = num1 + num2;  e) num3 guarda la suma de num1 más num2
+    2. num1 = num3 + num3;  a) num1 guarda el valor de num3 más num3
+    3. num2 + num1;         c) Ejecuta la suma de num2 más num1, pero no la guarda
+    4. num2 = num2 * num1;  b) num2 guarda lo que valía num2 por num1
+    5. num1 = num3 - num2;  d) num1 es igual a la resta de num3 menos num2
+    6. num3 = num1/num2;    f) num3 guarda la división de num1 entre num2
+    7. num2 = num3%num1;    g) num2 guarda el módulo de num1 y num3
+
+5. Elija el valor correcto que tiene la variable a después de las siguientes instrucciones:
+    (a) 8
+
+6. Cuando se declara una variable de cualquier tipo, por ejemplo: int var1;
+El sistema reserva un pedazo de memoria, con un valor inicial igual a:
+    (b) Algunos compiladores pueden asignarle cualquier valo
+
+7. ¿Cuál es el valor final guardado en a?
+    (a) 3
+
+8. Declaración de una variable para guardar una letra:
+    Respuesta: char letra;
+
+9. Declaración de una variable para guardar un número con decimales con doble precisión:
+    Respuesta: double num;
+
+10. Declaración de una variable para guardar un número con decimales:
+    Respuesta: float num;
+
+11. Declaración de una variable para guardar un número entero:
+    Respuesta:int num;
+
+12. Declaración de una variable para guardar una letra y no desperdiciar memoria RAM, la variable se llama letra.
+    Respuesta: char letra;

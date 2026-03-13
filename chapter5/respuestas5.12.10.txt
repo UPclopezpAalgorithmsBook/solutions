@@ -1,0 +1,288 @@
+2. Imprimir en pantalla "Escribe tres números“. Posteriormente solicitar tres números (serán entradas, ejemplo a, b, c). 
+Genere la resta de dichos números y finalmente imprima "La resta de los tres números es: " + valor.
+En este caso la variable valor contiene el resultado de la resta de los números a, b, c. → (dfd/dfd5.12.10_2.png)
+
+    #include <stdio.h>
+
+    int main() {
+        int a, b, c, valor;
+
+        printf("Escribe tres numeros: ");
+        scanf("%d %d %d", &a, &b, &c);
+
+        valor = a - b - c;
+
+        printf("La resta de los tres numeros es: %d\n", valor);
+
+        return 0;
+    }
+
+
+4. Leer cuidadosamente el sieguiente problema "Domingo por la noche" y realiza un program que te ayude a decidir cada vez que tengas pizzas con diferentes medidas:
+El plan es quedarse a estudiar y preparar el examen final. El hambre los invade. Una pizza suena bien, pero ustedes 
+sólo tienen $250.00 y son 8 estudiantes muy aplicados e inteligentes. Por lo que deciden llamar a varias pizzerías y comparar precios.
+Un estudiante llama a la pizzería X y le venden una pizza redonda de 20 cm de diámetro con 2 ingredientes por $180.00. Otro estudiante llama a la pizzería Y y le venden una pizza
+cuadrada de 25 cm de lado a $240.00 con los mismos ingredientes que X. ¿Cuál de las 2 pizzas sería la mejor opción? Considera que todo el tiempo tanto la pizza
+cuadrada cómo la pizza circular tendrán medidas distintas y costos distintos. → (dfd/dfd5.12.10_4.png)
+
+    #include <stdio.h>
+
+    int main() {
+        float diametro, lado;
+        float precio_circular, precio_cuadrada;
+        float area_circular, area_cuadrada;
+        float costo_circular, costo_cuadrada;
+        float pi = 3.1416;
+
+        printf("Introduce el diametro de la pizza circular (cm): ");
+        scanf("%f", &diametro);
+
+        printf("Introduce el precio de la pizza circular: ");
+        scanf("%f", &precio_circular);
+
+        printf("Introduce el lado de la pizza cuadrada (cm): ");
+        scanf("%f", &lado);
+
+        printf("Introduce el precio de la pizza cuadrada: ");
+        scanf("%f", &precio_cuadrada);
+
+        area_circular = pi * (diametro/2) * (diametro/2);
+        area_cuadrada = lado * lado;
+
+        costo_circular = precio_circular / area_circular;
+        costo_cuadrada = precio_cuadrada / area_cuadrada;
+
+        printf("\nCosto por cm^2 pizza circular: %f\n", costo_circular);
+        printf("Costo por cm^2 pizza cuadrada: %f\n", costo_cuadrada);
+
+        if(costo_circular < costo_cuadrada)
+            printf("La mejor opcion es la pizza circular.\n");
+        else
+            printf("La mejor opcion es la pizza cuadrada.\n");
+
+        return 0;
+    }
+
+
+6. Algoritmo que resuelva la fórmula general para resolver ecuaciones de segundo grado: 
+el resultado debe dar con puntos decimales, y realiza las validaciones que tengan que hacerse → (dfd/dfd5.12.10_6.png)
+
+    #include <stdio.h>
+    #include <math.h>
+
+    int main() {
+
+        double a, b, c;
+        double discriminante, x1, x2;
+
+        printf("Introduce los valores de a, b y c:\n");
+        scanf("%lf %lf %lf", &a, &b, &c);
+
+        if(a == 0){
+            printf("No es una ecuacion de segundo grado.\n");
+            return 0;
+        }
+
+        discriminante = (b*b) - (4*a*c);
+
+        if(discriminante > 0){
+            x1 = (-b + sqrt(discriminante)) / (2*a);
+            x2 = (-b - sqrt(discriminante)) / (2*a);
+
+            printf("Las soluciones son reales y diferentes:\n");
+            printf("x1 = %lf\n", x1);
+            printf("x2 = %lf\n", x2);
+        }
+
+        else if(discriminante == 0){
+            x1 = -b / (2*a);
+
+            printf("Las soluciones son reales e iguales:\n");
+            printf("x = %lf\n", x1);
+        }
+
+        else{
+            printf("Las soluciones son complejas (no reales).\n");
+        }
+
+        return 0;
+    }
+
+    ¿Qué pasa si la variable a es cero?
+        Respuesta: Si la variable a es cero, entonces la ecuación ya no es de segundo grado.
+
+8. Algoritmo que resuelva la fórmula del área de un prisma circular. Nota: el resultado debe dar
+con puntos decimales → (dfd/dfd5.12.10_8.png)
+
+    #include <stdio.h>
+
+    int main() {
+        float radio, altura, area;
+        float pi = 3.1416;
+
+        printf("Introduce el radio del prisma circular: ");
+        scanf("%f", &radio);
+
+        printf("Introduce la altura del prisma circular: ");
+        scanf("%f", &altura);
+
+        area = 2 * pi * radio * radio + 2 * pi * radio * altura;
+
+        printf("El area del prisma circular es: %f\n", area);
+
+        return 0;
+    }
+
+
+10. Algoritmo que reciba como entrada 4 números y que los ordene de menor a mayor (no usar arreglos). 
+Si hay números repetidos que los ordene y que además diga que hay números repetidos. → (dfd/dfd5.12.10_10.png)
+
+    #include <stdio.h>
+
+    int main() {
+
+        int a, b, c, d; temp;
+
+        printf("Introduce cuatro numeros:\n");
+        scanf("%d %d %d %d", &a, &b, &c, &d);
+
+        if(a > b) { temp = a; a = b; b = temp; }
+        if(a > c) { temp = a; a = c; c = temp; }
+        if(a > d) { temp = a; a = d; d = temp; }
+        if(b > c) { temp = b; b = c; c = temp; }
+        if(b > d) { temp = b; b = d; d = temp; }
+        if(c > d) { temp = c; c = d; d = temp; }
+
+        printf("Numeros ordenados de menor a mayor:\n");
+        printf("%d %d %d %d\n", a, b, c, d);
+
+        if(a==b || a==c || a==d || b==c || b==d || c==d){
+            printf("Hay numeros repetidos.\n");
+        }
+
+        return 0;
+    }
+
+12. Algoritmo que reciba como entrada 4 números y que indique cuántos de ellos se repiten → (dfd/dfd5.12.10_12.png)
+    #include <stdio.h>
+
+    int main() {
+
+        int a, b, c, d;
+        int repetidos = 0;
+
+        printf("Introduce cuatro numeros:\n");
+        scanf("%d %d %d %d", &a, &b, &c, &d);
+
+        if(a == b) repetidos++;
+        if(a == c) repetidos++;
+        if(a == d) repetidos++;
+        if(b == c) repetidos++;
+        if(b == d) repetidos++;
+        if(c == d) repetidos++;
+
+        printf("Cantidad de repeticiones: %d\n", repetidos);
+
+        return 0;
+    }
+
+
+14. Programa que reciba como entrada 5 números y que diga quién es el mayor de todos → (dfd/dfd5.12.10_14.png)
+    #include <stdio.h>
+
+    int main() {
+
+        int a, b, c, d, e;
+        int mayor;
+
+        printf("Introduce cinco numeros:\n");
+        scanf("%d %d %d %d %d", &a, &b, &c, &d, &e);
+
+        mayor = a;
+
+        if(b > mayor)
+            mayor = b;
+
+        if(c > mayor)
+            mayor = c;
+
+        if(d > mayor)
+            mayor = d;
+
+        if(e > mayor)
+            mayor = e;
+
+        printf("El numero mayor es: %d\n", mayor);
+
+        return 0;
+    }
+
+16. Programa que te pida un carácter y te imprima el mismo pero en mayúscula. Si el usuario
+introduce el carácter en mayúscula, de todos modos lo imprime en mayúsculas. → (dfd/dfd5.12.10_16.png)
+    #include <stdio.h>
+
+    int main() {
+
+        char a;
+
+        printf("Introduce una letra :\n");
+        scanf("%c", &a);
+        
+        if(a < 90){
+            printf("%c", a);
+        }else{
+            printf("%c", a - 32);
+        }
+
+        return 0;
+    }
+
+18. → (dfd/dfd5.12.10_18.png)
+    #include <stdio.h>
+
+    int main() {
+
+        int entrada, destino, necesidad;
+
+        printf("¿Por donde entras a la UP?\n");
+        printf("1. Estacionamiento vertical\n");
+        printf("2. Entrada peatonal\n");
+        scanf("%d", &entrada);
+
+        printf("\n¿Tienes alguna necesidad?\n");
+        printf("1. Ninguna\n");
+        printf("2. Hambre\n");
+        printf("3. Ir al baño\n");
+        scanf("%d", &necesidad);
+
+        printf("\n¿A donde quieres ir?\n");
+        printf("1. Gimnasio\n");
+        printf("2. Biblioteca\n");
+        scanf("%d", &destino);
+
+        printf("\nInstrucciones:\n");
+
+        if(entrada == 1) {
+            printf("Entraste por el estacionamiento vertical.\n");
+        }
+        else {
+            printf("Entraste por la entrada peatonal.\n");
+        }
+
+        if(necesidad == 2) {
+            printf("Primero pasa por la cafeteria.\n");
+        }
+        else if(necesidad == 3) {
+            printf("Primero pasa por los baños.\n");
+        }
+
+        if(destino == 1) {
+            printf("Después dirígete al gimnasio.\n");
+        }
+        else {
+            printf("Después dirígete a la biblioteca.\n");
+        }
+
+        printf("Has llegado a tu destino.\n");
+        return 0;
+    }
