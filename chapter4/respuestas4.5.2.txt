@@ -1,0 +1,11 @@
+1. Lo siguiente es un pseudocódigo. Si el dato de entrada n es 9. Con qué valor queda al final la variable r:
+    (b) El número que escribiste es impar
+
+2. Lo siguiente es un pseudocódigo. ¿Cuál es el resultado cuando el dato de entrada es igual a 7?
+    (a) El número que escribiste no es par
+
+3. Lo siguiente es un pseudocódigo. Experimenta y comenta cuál es el resultado cuando el dato de entrada es igual a 8:
+    (a) El número que escribiste es par
+
+4. ¿Con qué valor queda al final la variable x?
+    Respuesta: 6

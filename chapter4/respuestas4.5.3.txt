@@ -1,0 +1,5 @@
+1. Analiza bien la siguiente figura: ¿Hacen lo mismo el pseudocódigo y DFD?
+    (a) Verdadero
+
+2. Analiza bien la siguiente figura: ¿Hacen lo mismo el pseudocódigo y DFD?
+    (b) Verdadero

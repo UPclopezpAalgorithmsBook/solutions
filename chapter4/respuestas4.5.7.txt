@@ -1,0 +1,18 @@
+2. Imprima los números a partir de n hasta m, validar que n sea menor a m. Ejemplo:
+Si n es 1 y m es 5, debería imprimir 1, 2, 3, 4, 5. → (dfd/dfd4.5.7_2.png)
+
+4. Sume los números entre el 5 y el 50. Al final que imprima la suma. → (dfd/dfd4.5.7_4.png)
+
+6. Sume todos los números menores o iguales a un número n y escriba el resultado. Validar que
+el número n es mayor que cero. → (dfd/dfd4.5.7_6.png)
+
+8. Imprima todos los números pares positivos menores a un número que introduce el usuario
+por teclado. Considera que el menor número par es el cero y los números deberán imprimirse
+de menor a mayor. → (dfd/dfd4.5.7_8.png)
+
+10. Imprima todos los números pares positivos menores a un número que introduce el usuario
+por teclado. Considera que el menor número par es el cero y los números deberán imprimirse
+de mayor a menor. → (dfd/dfd4.5.7_10.png)
+
+12. Reto (Avanzado): Escribir un pseudocódigo y diagrama de flujo que solicite un número y
+que imprima su factorial. → (dfd/dfd4.5.7_12.png)

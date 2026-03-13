@@ -1,0 +1,64 @@
+2.¿Qué hace? Convertir en DFD → (dfd/dfd4.5.1_2.png)
+    1. Inicio → comienza el algoritmo.
+    2. Introduce número x → el usuario ingresa un número.
+    3. Si (residuo de x % 2 es 0) → se divide el número entre 2 y se revisa el residuo (módulo).
+    4. Entonces imprime que x es número par → si el residuo es 0, significa que el número se puede dividir exactamente entre 2.
+    5. Si no → si la condición no se cumple.
+    6. Imprime que x es impar.
+    7. Fin si → termina la estructura condicional.
+    8. Fin → termina el algoritmo.
+
+4.¿Qué hace? Convertir en DFD → (dfd/dfd4.5.1_4.png)
+     1. Inicio → comienza el algoritmo.
+     2. Introduce número x → el usuario ingresa un valor para la variable x.
+     3. Hacer → inicia un ciclo que se ejecutará al menos una vez.
+     4. Imprime "Starting" → se muestra el mensaje "Starting" en pantalla.
+     5. Si (x es diferente de 1) → se verifica si x es distinto de 1.
+     6. Entonces x = x + 1 → si la condición es verdadera, se incrementa x en 1.
+     7. Imprime x → se muestra el valor actual de x.
+     8. Fin si → termina la estructura condicional.
+     9. x ← x − 1 → se disminuye x en 1.
+    10. Mientras (x ≥ 0) → el ciclo se repite mientras x sea mayor o igual a 0.
+    11. y = y − 1 → al terminar el ciclo se disminuye y en 1.
+    12. Fin → termina el algoritmo.
+
+6. ¿Qué hace el siguiente algoritmo? Convertir a DFD → (dfd/dfd4.5.1_6.png)
+    1. Inicio → comienza el algoritmo.
+    2. Introduce número x → el usuario ingresa un número para la variable x.
+    3. Mientras (x ≥ 0) → se verifica si x es mayor o igual a 0; si se cumple, se ejecuta el ciclo.
+    4. Si (residuo de x / 2 es 0) → se revisa si x es divisible entre 2 (si el residuo es 0 significa que es par).
+    5. Entonces imprime x → si el número es par, se muestra el valor de x.
+    6. Fin si → termina la estructura condicional.
+    7. x ← x − 1 → se disminuye x en 1.
+    8. Fin mientras → el ciclo se repite mientras x siga siendo mayor o igual a 0.
+    9. Fin → termina el algoritmo.
+
+8. ¿Qué hace el siguiente algoritmo? Convertir a DFD → (dfd/dfd4.5.1_8.png)
+    1. Inicio → comienza el algoritmo.
+    2. sum = 0 → se inicializa la variable sum con valor 0.
+    3. num = 3 → se asigna el valor 3 a la variable num.
+    4. sum = num + sum → se suma el valor de num a sum.
+    5. Si (sum ≤ 30) → se verifica si sum es menor o igual a 30.
+    6. Ir a 4 → si la condición se cumple, se vuelve a realizar la suma sum = num + sum.
+    7. Si no ir al 6 → si sum es mayor que 30, se continúa con la siguiente instrucción.
+    8. Imprimir el valor de sum → se muestra el valor final de sum.
+    9. Fin → termina el algoritmo.
+
+10. Analiza el siguiente pseudocódigo. Realiza lo siguiente:  
+Imprime todos los números pares menores a un número dado, 
+se considera que el menor número par es el cero. 
+¿Podrías convertirlo a DFD de forma estructurada? → (dfd/dfd4.5.1_10.png)
+     1. Inicio → comienza el algoritmo.
+     2. Introduce número X → el usuario ingresa un número X.
+     3. Si (X < 0) → se verifica si el número es menor que 0.
+     4. Ir al paso 14 → si X es menor que 0, el algoritmo termina.
+     5. Si no → si X es mayor o igual a 0, continúa el proceso.
+     6. Si (residuo de X % 2 es 0) → se revisa si X es un número par.
+     7. Imprime X → si X es par, se imprime su valor.
+     8. X ← X − 2 → se resta 2 a X para pasar al siguiente número par menor.
+     9. Si no → si X no es par.
+    10. X ← X − 1 → se resta 1 a X para convertirlo en el siguiente número menor.
+    11. Fin si → termina la estructura condicional.
+    12. Ir al paso 3 → el proceso se repite verificando nuevamente la condición.
+    13. El ciclo continúa mientras X ≥ 0.
+    14. Fin → termina el algoritmo

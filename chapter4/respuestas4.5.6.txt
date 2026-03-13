@@ -1,0 +1,12 @@
+
+2. El usuario introduce un nombre y luego se imprime el mismo nombre. → (dfd/dfd4.5.6_2.png)
+
+4. El usuario introduce 2 números, decir cuál de los dos es el menor. → (dfd/dfd4.5.6_4.png)
+
+6. El usuario introduce 2 números, debe imprimirse de mayor a menor. → (dfd/dfd4.5.6_6.png)
+
+8. El usuario introduce 4 números, que diga quién es el menor de todos. → (dfd/dfd4.5.6_8.png)
+
+10. Hacer algoritmo que reciba 3 números (X, Y, Z) los cuáles significan una fecha (día, mesy año),
+comprobar que sea válida, si no es válido que imprima un mensaje de error. Si es
+válido que imprima la fecha de la siguiente manera: “Día X del mes Y del año Z”. → (dfd/dfd4.5.6_10.png)

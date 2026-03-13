@@ -1,0 +1,10 @@
+De acuerdo al siguiente DFD:
+    1. ¿Es el DFD anterior finito? ¿Por qué?
+        Respuesta: Es finito, ya que no entra a ningun bloque que se repita
+
+    2. ¿Cuántas variables tiene en total?
+        Respuesta: 3 variables
+
+    3. ¿Con qué valor termina al final cada variable después de recorrer el algoritmo?
+        Suponiendo un valor de x = -1, y = 5
+        Respuesta: x = -1, y = 6, z = 0
