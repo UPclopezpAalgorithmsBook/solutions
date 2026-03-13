@@ -1,4 +1,4 @@
-De acuerdo al siguiente DFD:
+1. De acuerdo al siguiente DFD:
     1. ¿Es el DFD anterior finito? ¿Por qué?
         Respuesta: Es finito, ya que no entra a ningun bloque que se repita
 
