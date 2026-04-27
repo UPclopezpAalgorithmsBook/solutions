@@ -35,86 +35,94 @@
     (b) Se vuelve negativo
 
 7. Obtener el tamaño en bytes de cada uno de los tipos de datos extendidos del lenguaje C++.
-    #include <stdio.h>
+    #include <iostream>
 
     int main() {
-        printf("char: %zu bytes\n", sizeof(char));
-        printf("short: %zu bytes\n", sizeof(short));
-        printf("int: %zu bytes\n", sizeof(int));
-        printf("long: %zu bytes\n", sizeof(long));
-        printf("long long: %zu bytes\n", sizeof(long long));
-        printf("float: %zu bytes\n", sizeof(float));
-        printf("double: %zu bytes\n", sizeof(double));
-        printf("long double: %zu bytes\n", sizeof(long double));
+        cout << "char: " << sizeof(char) << " bytes\n";
+        cout << "short: " << sizeof(short) << " bytes\n";
+        cout << "int: " << sizeof(int) << " bytes\n";
+        cout << "long: " << sizeof(long) << " bytes\n";
+        cout << "long long: " << sizeof(long long) << " bytes\n";
+        cout << "float: " << sizeof(float) << " bytes\n";
+        cout << "double: " << sizeof(double) << " bytes\n";
+        cout << "long double: " << sizeof(long double) << " bytes\n";
+
     }
 
 8. Obtener el tamaño en bits de cada uno de los tipos de datos extendidos del lenguaje C++.
-    #include <stdio.h>
+    #include <iostream>
 
     int main() {
-        printf("char: %zu bits\n", sizeof(char)*8);
-        printf("short: %zu bits\n", sizeof(short)*8);
-        printf("int: %zu bits\n", sizeof(int)*8);
-        printf("long: %zu bits\n", sizeof(long)*8);
-        printf("long long: %zu bits\n", sizeof(long long)*8);
-        printf("float: %zu bits\n", sizeof(float)*8);
-        printf("double: %zu bits\n", sizeof(double)*8);
-        printf("long double: %zu bits\n", sizeof(long double)*8);
+        cout << "char: " << sizeof(char) * 8 << " bytes\n";
+        cout << "short: " << sizeof(short) * 8 << " bytes\n";
+        cout << "int: " << sizeof(int) * 8 << " bytes\n";
+        cout << "long: " << sizeof(long) * 8 << " bytes\n";
+        cout << "long long: " << sizeof(long long) * 8 << " bytes\n";
+        cout << "float: " << sizeof(float) * 8 << " bytes\n";
+        cout << "double: " << sizeof(double) * 8 << " bytes\n";
+        cout << "long double: " << sizeof(long double) * 8 << " bytes\n";
 
     }
 
 9. Obtener el rango mínimo y máximo de cada tipo de dato en lenguaje C.
-    #include <stdio.h>
-    #include <limits.h>
-    #include <float.h>
+    #include <iostream>
+    #include <climits>
+    #include <cfloat>
+
+    using namespace std;
 
     int main() {
-        printf("char: %d a %d\n", CHAR_MIN, CHAR_MAX);
-        printf("short: %d a %d\n", SHRT_MIN, SHRT_MAX);
-        printf("int: %d a %d\n", INT_MIN, INT_MAX);
-        printf("long: %ld a %ld\n", LONG_MIN, LONG_MAX);
+        cout << "char: " << CHAR_MIN << " a " << CHAR_MAX << endl;
+        cout << "short: " << SHRT_MIN << " a " << SHRT_MAX << endl;
+        cout << "int: " << INT_MIN << " a " << INT_MAX << endl;
+        cout << "long: " << LONG_MIN << " a " << LONG_MAX << endl;
 
-        printf("float: %e a %e\n", FLT_MIN, FLT_MAX);
-        printf("double: %e a %e\n", DBL_MIN, DBL_MAX);
+        cout << "float: " << FLT_MIN << " a " << FLT_MAX << endl;
+        cout << "double: " << DBL_MIN << " a " << DBL_MAX << endl;
 
+        return 0;
     }
 
 10. Sumar dos números e imprimir su resultado.
-    #include <stdio.h>
+    #include <iostream>
 
     int main() {
         int a, b;
 
-        printf("Introduce dos numeros:\n");
-        scanf("%d %d", &a, &b);
+        cout << "Introduce dos numeros:\n";
+        cin >> a >> b;
 
-        printf("La suma es: %d\n", a+b);
+        cout << "La suma es: " << a+b  << "\n";
 
     }
 
 11. Almacenar en dos variables diferentes dos números mayores a 255. Imprimir en pantalla lo siguiente:
-    #include <stdio.h>
+    #include <iostream>
 
     int main() {
         int a, b;
 
-        printf("Introduce dos numeros mayores a 255:\n");
-        scanf("%d %d", &a, &b);
+        cout << "Introduce dos numeros mayores a 255:\n";
+        cin >> a >> b;
 
-        printf("Suma: %d\n", a+b);
-        printf("Resta: %d\n", a-b);
-        printf("Multiplicacion: %d\n", a*b);
-        printf("Division: %d\n", a/b);
-        printf("Residuo: %d\n", a%b);
+        cout << "Suma: " << a+b << "\n";
+        cout << "Resta: " << a-b << "\n";
+        cout << "Multiplicacion: " << a*b << "\n";
+        cout << "Division: " << a/b << "\n";
+        cout << "Residuo: " << a%b << "\n";
 
-        if(a % 2 == 0)
-            printf("El numero %d es par\n", a);
-        else
-            printf("El numero %d es impar\n", a);
+        if(a % 2 == 0) {
+            cout << "El numero: " << a << " es par\n";
+        }
+        else {
+            cout << "El numero: " << a << " es impar\n";
+        }
 
-        if(b % 2 == 0)
-            printf("El numero %d es par\n", b);
-        else
-            printf("El numero %d es impar\n", b);
+        if(b % 2 == 0) {
+            cout << "El numero: " << b << " es par\n";
+        }
+        else {
+            cout << "El numero: " << b << " es impar\n";
+        }
 
     }

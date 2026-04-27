@@ -1,40 +1,296 @@
-1. Observa la siguiente figura y elige cuál de las siguientes afirmaciones es la respuesta:
-    (a) La instrucción de la izquierda y el símbolo de la derecha tratan sobre imprimir en pantalla
-
-2. Analiza el siguiente código:
-    Respuesta: 6610
-
-3. Analiza el siguiente código:
-    Respuesta: B
-
-4. Analiza el siguiente código:
-    Respuesta: x=65
-
-5. Analiza el siguiente código:
-    Respuesta: x=3
-
-6. Ver el siguiente ejemplo en DFD y tradúcelo a código de C++.
+2. Imprimir en pantalla "Escribe tres números“. Posteriormente solicitar tres números (serán entradas, ejemplo a, b, c). 
+Genere la resta de dichos números y finalmente imprima "La resta de los tres números es: " + valor.
+En este caso la variable valor contiene el resultado de la resta de los números a, b, c. → (dfd/dfd5.12.8_2.png)
 
     #include <iostream>
-    using namespace std;
 
     int main() {
-        cout<<"Juan\n";
-        cout<<"Lopez\n";
-        cout<<"Id: 472021\n";
-        cout<<"ISC";
-        cout<<"Jalisco";
+        int a, b, c, valor;
+
+        cout << "Escribe tres numeros: ";
+        cin >> a >> b >> c;
+
+        valor = a - b - c;
+
+        cout << "La resta de los tres numeros es: " << valor << "\n";
+
+        return 0;
     }
 
-7. Imprimir Datos Personales. Realiza un programa en lenguaje C++ que imprima tus datos
-de acuerdo a lo siguiente: Nombre, Apellido Paterno y Materno, Id, Carrera que estudias, Estado de la República de Nacimiento
+
+4. Leer cuidadosamente el sieguiente problema "Domingo por la noche" y realiza un program que te ayude a decidir cada vez que tengas pizzas con diferentes medidas:
+El plan es quedarse a estudiar y preparar el examen final. El hambre los invade. Una pizza suena bien, pero ustedes 
+sólo tienen $250.00 y son 8 estudiantes muy aplicados e inteligentes. Por lo que deciden llamar a varias pizzerías y comparar precios.
+Un estudiante llama a la pizzería X y le venden una pizza redonda de 20 cm de diámetro con 2 ingredientes por $180.00. Otro estudiante llama a la pizzería Y y le venden una pizza
+cuadrada de 25 cm de lado a $240.00 con los mismos ingredientes que X. ¿Cuál de las 2 pizzas sería la mejor opción? Considera que todo el tiempo tanto la pizza
+cuadrada cómo la pizza circular tendrán medidas distintas y costos distintos. → (dfd/dfd5.12.8_4.png)
+
     #include <iostream>
-    using namespace std;
 
     int main() {
-        cout<<"Iker\n";
-        cout<<"Ortiz Rojero\n";
-        cout<<"Id: 0263663\n";
-        cout<<"ISGC";
-        cout<<"Jalisco";
+        float diametro, lado;
+        float precio_circular, precio_cuadrada;
+        float area_circular, area_cuadrada;
+        float costo_circular, costo_cuadrada;
+        float pi = 3.1416;
+
+        cout << "Introduce el diametro de la pizza circular (cm): ";
+        cin >> diametro;
+
+        cout << "Introduce el precio de la pizza circular: ";
+        cin >> precio_circular;
+
+        cout << "Introduce el lado de la pizza cuadrada (cm): ";
+        cin >> lado;
+
+        cout << "Introduce el precio de la pizza cuadrada: ";
+        cin >> precio_cuadrada;
+
+        area_circular = pi * (diametro/2) * (diametro/2);
+        area_cuadrada = lado * lado;
+
+        costo_circular = precio_circular / area_circular;
+        costo_cuadrada = precio_cuadrada / area_cuadrada;
+
+        cout << "\nCosto por cm^2 pizza circular: " << costo_circular << "\n";
+        cout << "Costo por cm^2 pizza cuadrada: " << costo_cuadrada << "\n";
+
+        if(costo_circular < costo_cuadrada) {
+            cout << "La mejor opcion es la pizza circular.\n";
+        }
+        else {
+            cout << "La mejor opcion es la pizza cuadrada.\n";
+        }
+
+        return 0;
+    }
+
+
+6. Algoritmo que resuelva la fórmula general para resolver ecuaciones de segundo grado: 
+el resultado debe dar con puntos decimales, y realiza las validaciones que tengan que hacerse → (dfd/dfd5.12.8_6.png)
+
+    #include <iostream>
+    #include <math.h>
+
+    int main() {
+
+        double a, b, c;
+        double discriminante, x1, x2;
+
+        cout << "Introduce los valores de a, b y c:\n";
+        cin >> a >> b >> c;
+
+        if(a == 0){
+            cout << "No es una ecuacion de segundo grado.\n";
+            return 0;
+        }
+
+        discriminante = (b*b) - (4*a*c);
+
+        if(discriminante > 0){
+            x1 = (-b + sqrt(discriminante)) / (2*a);
+            x2 = (-b - sqrt(discriminante)) / (2*a);
+
+            cout << "Las soluciones son reales y diferentes:\n";
+            cout << "x1 = " << x1 << "\n";
+            cout << "x2 = " << x2 << "\n";
+        }
+
+        else if(discriminante == 0){
+            x1 = -b / (2*a);
+
+            cout << "Las soluciones son reales e iguales:\n";
+            cout << "x1 = " << x1 << "\n";
+        }
+
+        else{
+            cout << "Las soluciones son complejas (no reales).\n";
+        }
+
+        return 0;
+    }
+
+    ¿Qué pasa si la variable a es cero?
+        Respuesta: Si la variable a es cero, entonces la ecuación ya no es de segundo grado.
+
+8. Algoritmo que resuelva la fórmula del área de un prisma circular. Nota: el resultado debe dar
+con puntos decimales → (dfd/dfd5.12.8_8.png)
+
+    #include <iostream>
+
+    int main() {
+        float radio, altura, area;
+        float pi = 3.1416;
+
+        cout << "Introduce el radio del prisma circular: ";
+        cin >> radio;
+
+        cout << "Introduce la altura del prisma circular: ";
+        cin >> altura;
+
+        area = 2 * pi * radio * radio + 2 * pi * radio * altura;
+
+        cout << "El area del prisma circular es: ", << area << "\n";
+
+        return 0;
+    }
+
+
+10. Algoritmo que reciba como entrada 4 números y que los ordene de menor a mayor (no usar arreglos). 
+Si hay números repetidos que los ordene y que además diga que hay números repetidos. → (dfd/dfd5.12.8_10.png)
+
+    #include <iostream>
+
+    int main() {
+
+        int a, b, c, d; temp;
+
+        cout << "Introduce cuatro numeros:\n";
+        cin >> a >> b >> c >> d;
+
+        if(a > b) { temp = a; a = b; b = temp; }
+        if(a > c) { temp = a; a = c; c = temp; }
+        if(a > d) { temp = a; a = d; d = temp; }
+        if(b > c) { temp = b; b = c; c = temp; }
+        if(b > d) { temp = b; b = d; d = temp; }
+        if(c > d) { temp = c; c = d; d = temp; }
+
+        cout << "Numeros ordenados de menor a mayor:\n";
+        cout << a << b << c << d;
+
+        if(a==b || a==c || a==d || b==c || b==d || c==d){
+            cout << "Hay numeros repetidos.\n";
+        }
+
+        return 0;
+    }
+
+12. Algoritmo que reciba como entrada 4 números y que indique cuántos de ellos se repiten → (dfd/dfd5.12.8_12.png)
+    #include <iostream>
+
+    int main() {
+
+        int a, b, c, d;
+        int repetidos = 0;
+
+        cout << "Introduce cuatro numeros:\n";
+        cin >> a >> b >> c >> d;
+
+        if(a == b) repetidos++;
+        if(a == c) repetidos++;
+        if(a == d) repetidos++;
+        if(b == c) repetidos++;
+        if(b == d) repetidos++;
+        if(c == d) repetidos++;
+
+        cout << "Cantidad de repeticiones: " << repetidos << "\n";
+
+        return 0;
+    }
+
+
+14. Programa que reciba como entrada 5 números y que diga quién es el mayor de todos → (dfd/dfd5.12.8_14.png)
+    #include <iostream>
+
+    int main() {
+
+        int a, b, c, d, e;
+        int mayor;
+
+        cout << "Introduce cinco numeros:\n";
+        cin >> a >> b >> c >> d >> e;
+
+        mayor = a;
+
+        if(b > mayor)
+            mayor = b;
+
+        if(c > mayor)
+            mayor = c;
+
+        if(d > mayor)
+            mayor = d;
+
+        if(e > mayor)
+            mayor = e;
+
+        cout << "El numero mayor es: " << mayor << "\n";
+
+        return 0;
+    }
+
+16. Programa que te pida un carácter y te imprima el mismo pero en mayúscula. Si el usuario
+introduce el carácter en mayúscula, de todos modos lo imprime en mayúsculas. → (dfd/dfd5.12.8_16.png)
+    #include <iostream>
+
+    int main() {
+
+        char a;
+
+        cout << "Introduce una letra :\n";
+        cin >> a;
+        
+        if(a < 90){
+            cout << a;
+        }else{
+            cout <<  a - 32;
+        }
+
+        return 0;
+    }
+
+18. Lee cuidadosamente el siguiente problema y realizar un programa que resuelva el ejercicio con al menos dos entradas y dos destinos.
+La UP tiene varias entradas, y dependiendo de ellas las personas pueden llegar a un lugar en particular. 
+Por ejemplo, si entras por el estacionamiento vertical no es igual que entrar por la entrada peatonal para llegar al gimnasio.
+Realiza una serie de instrucciones para que las personas puedan llegar a un lugar determinado en la UP. 
+Toma en cuenta que estando en la UP la persona que entra podría tener hambre o ganas de ir al baño, 
+lo que provocaría tener que pasar por la cafetería o los baños respectivamente. → (dfd/dfd5.12.8_18.png)
+
+    #include <iostream>
+
+    int main() {
+
+        int entrada, destino, necesidad;
+
+        cout << "¿Por donde entras a la UP?\n";
+        cout << "1. Estacionamiento vertical\n";
+        cout << "2. Entrada peatonal\n";
+        cin >> entrada;
+
+        cout << "\n¿Tienes alguna necesidad?\n";
+        cout << "1. Ninguna\n";
+        cout << "2. Hambre\n";
+        cout << "3. Ir al baño\n";
+        cin >>  necesidad;
+
+        cout << "\n¿A donde quieres ir?\n";
+        cout << "1. Gimnasio\n";
+        cout << "2. Biblioteca\n";
+        cin >> destino;
+
+        cout << "\nInstrucciones:\n";
+
+        if(entrada == 1) {
+            cout << "Entraste por el estacionamiento vertical.\n";
+        }
+        else {
+            cout << "Entraste por la entrada peatonal.\n";
+        }
+
+        if(necesidad == 2) {
+            cout << "Primero pasa por la cafeteria.\n";
+        }
+        else if(necesidad == 3) {
+            cout << "Primero pasa por los baños.\n";
+        }
+
+        if(destino == 1) {
+            cout << "Después dirígete al gimnasio.\n";
+        }
+        else {
+            cout << "Después dirígete a la biblioteca.\n";
+        }
+
+        cout << "Has llegado a tu destino.\n";
+        return 0;
     }

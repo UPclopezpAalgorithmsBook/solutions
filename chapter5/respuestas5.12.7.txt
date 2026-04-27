@@ -1,29 +1,89 @@
-1. Utilizando funciones de entrada y salida del Lenguaje C: Realiza un programa que solicite un número 
-y te imprima todos los números menores a dicho número empezando por el cero. 
-Si el número introducido es menor que cero que imprima todos los números que faltan para llegar hasta el cero
-    #include <stdio.h>
+
+
+1. Considera la siguiente expresión: int a = 1
+¿Qué valor tiene la variable a después de las siguientes operaciones. Nota que cada operación
+es independiente.
+    (a) a+=2;
+        Respuesta: 3
+
+    (b) a+2;
+        Respuesta: 1
+
+    (c) a++;
+        Respuesta: 2
+
+    (d) a-=2;
+        Respuesta: -1
+
+2. De acuerdo a lo siguiente: int num1 = -5, num2 = -5, num3 = 3;
+Considera las siguientes operaciones como independientes y seleccione el valor de la asig-
+nación:
+    (a) num3 = num1 + num2;
+        Respuesta: -10
+
+    (b) num1 = num3 ∗ num3;
+        Respuesta: 9
+
+    (c) num2++;
+        Respuesta: -4
+
+    (d) num2 = num2 ∗ num1;
+        Respuesta: 25
+    
+    (e) num1 = num3 − num2;
+        Respuesta: 8
+    
+    (f) num3 = num1/num2;
+        Respuesta: 1
+    
+    (g) num2 = num3 % num1;
+        Respuesta: -2
+
+
+3. Elija la respuesta correcta relacionando ambas columnas:
+    1. a++;    d) a = a + 1;
+    2. b++;    f) b = b + 1
+    3. var++;  c) var = var + 1;
+    4. a−−;    b) a = a − 1;
+    5. b−−;    a) b = b − 1;
+    6. var−−;  e) var = var − 1;
+
+4. Realiza un programa que calcule el área y perímetro del cuadrado
+    #include <iostream>
 
     int main() {
+        float lado, area, perimetro;
 
-        int x, i;
+        cout << "Introduce el valor del lado del cuadrado: ";
+        cin >> lado;
 
-        printf("Introduce un numero: ");
-        scanf("%d", &x);
+        area = lado * lado;
+        perimetro = 4 * lado;
 
-        if (x >= 0) {
-            for(i = 0; i < x; i++) {
-                printf("%d\n", i);
-            }
-        } 
-        else {
-            for(i = x; i <= 0; i++) {
-                printf("%d\n", i);
-            }
-        }
+        cout << "Area del cuadrado: " << area << "\n";
+        cout << "Perimetro del cuadrado: " << perimetro  << "\n";
 
         return 0;
     }
 
-2. ¿Es posible imprimir en pantalla con la función scanf?
-    No, no es posible imprimir o mostrar datos en pantalla con la función scanf. 
-    scanf se utiliza exclusivamente para leer o capturar datos ingresados por el usuario 
+5. Realiza un programa que calcule el área y perímetro del rectángulo
+    #include <iostream>
+
+    int main() {
+
+        float base, altura, area, perimetro;
+
+        cout << "Introduce la base del rectangulo: ";
+        cin >> base;
+
+        cout << "Introduce la altura del rectangulo: ";
+        cin >> altura;
+
+        area = base * altura;
+        perimetro = 2 * (base + altura);
+
+        cout << "Area del rectangulo: " << area << "\n";
+        cout << "Perimetro del rectangulo: " << perimetro << "\n";
+
+        return 0;
+    }
