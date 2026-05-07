@@ -1,50 +1,49 @@
 
 1. Responder las siguientes preguntas:
-    1. ¿Qué imprime el algoritmo si el valor de entrada es x=6 y además, la condicional en el
+    (a) ¿Qué imprime el algoritmo si el valor de entrada es x=6 y además, la condicional en el
     diagrama de flujo que hace referencia a r >= 0 se cambia por r > 1 ?
         Respuesta: 6
 
-    2. ¿Con qué valor queda la r, cuando el dato de entrada x es igual a 5?
+    (b) ¿Con qué valor queda la r, cuando el dato de entrada x es igual a 5?
         Respuesta: 5
 
-    3. ¿Qué imprime el algoritmo si el valor de entrada es x=5?
+    (c) ¿Qué imprime el algoritmo si el valor de entrada es x=5?
         Respuesta: 5
 
-    4. ¿Qué imprime el algoritmo si el valor de entrada es x=4?
+    (d) ¿Qué imprime el algoritmo si el valor de entrada es x=4?
         Respuesta: 4
 
-    5. ¿Cuántas variables tiene en total el Diagrama de Flujo?
+    (e) ¿Cuántas variables tiene en total el Diagrama de Flujo?
         Respuesta: 3 variables
 
-    6. ¿Qué imprime el algoritmo si el valor de entrada es x=6?
+    (f) ¿Qué imprime el algoritmo si el valor de entrada es x=6?
         Respuesta: 6
 
-    7. ¿Qué imprime el algoritmo cuando la x recibe valores negativos?
+    (g) ¿Qué imprime el algoritmo cuando la x recibe valores negativos?
         Respuesta: Error
 
 
 2. Responder las siguientes preguntas:
-    1. ¿Con qué valor queda al final r? Si el valor de entrada de x es 3. Después de recorrer todo el diagrama de flujo
+    (a) ¿Con qué valor queda al final r? Si el valor de entrada de x es 3. Después de recorrer todo el diagrama de flujo
         Respuesta: 3
 
-    2. ¿Cuántas variables de entrada tiene el diagrama de flujo?
+    (b) ¿Cuántas variables de entrada tiene el diagrama de flujo?
         Respuesta: 1
 
-    3. ¿Con qué valor queda al final r? Si el valor de entrada de x es 5. Después de recorrer todo el diagrama de flujo:
+    (c) ¿Con qué valor queda al final r? Si el valor de entrada de x es 5. Después de recorrer todo el diagrama de flujo:
         Respuesta: 5
 
-    4. ¿Con qué valor queda al final y? Si el valor de entrada de x es 2. Después de recorrer todo el diagrama de flujo
-        Respuesta: 1
-    
-
-    5. ¿Con qué valor queda al final z? Si el valor de entrada de x es 2. Después de recorrer todo el diagrama de flujo
+    (d) ¿Con qué valor queda al final y? Si el valor de entrada de x es 2. Después de recorrer todo el diagrama de flujo
         Respuesta: 1
 
-    6. ¿Con qué valor queda al final x? Si el valor de entrada de x es 2. Después de recorrer todo el diagrama de flujo
+    (e) ¿Con qué valor queda al final z? Si el valor de entrada de x es 2. Después de recorrer todo el diagrama de flujo
+        Respuesta: 1
+
+    (f) ¿Con qué valor queda al final x? Si el valor de entrada de x es 2. Después de recorrer todo el diagrama de flujo
         Respuesta: 2
 
-    7. ¿Es el diagrama de flujo siguiente finito? Es decir, termina con cualquier valor de entrada de x. Verdadero o Falso
+    (g) ¿Es el diagrama de flujo siguiente finito? Es decir, termina con cualquier valor de entrada de x. Verdadero o Falso
         Respuesta: Verdadero
 
-    8. Realiza la prueba de escritorio y deduce qué hace el DFD
+    (h) Realiza la prueba de escritorio y deduce qué hace el DFD
         Respuesta: Lo que hace es es aumentar de 1 en 1 el valor de la variable si es menor a 10
