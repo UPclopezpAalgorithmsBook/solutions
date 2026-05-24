@@ -50,6 +50,7 @@ nación:
 
 4. Realiza un programa que calcule el área y perímetro del cuadrado
     #include <iostream>
+    using namespace std;
 
     int main() {
         float lado, area, perimetro;
@@ -68,6 +69,7 @@ nación:
 
 5. Realiza un programa que calcule el área y perímetro del rectángulo
     #include <iostream>
+    using namespace std;
 
     int main() {
 

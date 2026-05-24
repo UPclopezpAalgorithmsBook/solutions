@@ -1,0 +1,14 @@
+
+1) Para la estructura de control del switch, relaciona las columnas para seleccionar las respuestas
+correctas para cada opción:
+    1) Cada caso del switch debe tener un:                         -- (h) break;
+    2) Después de la condición del switch va:                      -- (b) un par de llaves que encierran los casos
+    3) El switch siempre incluye:                                  -- (a) una llave que abre
+    4) El switch solo acepta valores del tipo:                     -- (e) entero o caracter
+    5) Después del valor en cada caso va:                          -- (c) dos puntos (:)
+    6) Después de cada break va:                                   -- (g) punto y coma (;)
+    7) Las instrucciones dentro del default se realizan sí:        -- (d) ningún caso fue verdadero
+    8) Dentro de los paréntesis que siguen a la palabra switch va: -- (i) la variable a evaluar
+    9) Después de la palabra case en cada caso va:                 -- (f) el valor correspondiente a ese caso
+    10) El break se coloca para:                                   -- (k) no seguir evaluando los siguientes casos
+    11) Si ningún case es verdadero, entonces se coloca:           -- (j) default

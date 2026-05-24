@@ -1,0 +1,14 @@
+
+1) Relaciona correctamente las dos columnas:
+    1) Las sentencias condicionales (independientemente si es verdadero o no) 
+        evalúan los valores como:             -- (b) Cero o diferente de cero
+    2) La condición es cierta si el valor es: -- (c) Diferente de cero
+    3) La condición es falsa si el valor es:  -- (d) Igual a cero
+
+2)  Relaciona las dos columnas:
+    1) Las sentencias condicionales devuelven valores                                     -- (c) uno o cero
+    2) La condición es cierta si el valor es:                                             -- (a) diferente de cero
+    3) La condición es falsa si el valor es:                                              -- (d) igual a cero
+    4) Cuando una variable contiene un valor negativo, la condicional lo interpreta como: -- (b) verdadero
+    5) Cuando una variable contiene un valor positivo, la condicional lo interpreta como: -- (b) verdadero
+    6) Cuando una variable contiene un valor cero, la condicional lo interpreta como:     -- (e) falso

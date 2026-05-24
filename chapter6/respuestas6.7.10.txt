@@ -1,0 +1,8 @@
+
+1) Ordena la forma correcta de escribir la instrucción while:
+
+    while(condición){
+
+        //instruciones que se repiten
+
+    }

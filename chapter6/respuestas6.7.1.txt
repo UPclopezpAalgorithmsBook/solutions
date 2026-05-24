@@ -1,0 +1,10 @@
+
+1) Une con una línea cómo se evalúan las siguientes condiciones:
+    1. (x < y)    -- (c) Si x es menor que y
+    2. (x > y)    -- (e) Si x es mayor que y
+    3. (x == y)   -- (a) Si x es igual que y
+    4. (x <= y)   -- (f) Si x es menor o igual que y
+    5. (x >= y)   -- (d) Si x es mayor o igual que y
+    6. (x = y)    -- (b) No es condición, es una asignación; x toma el valor de y
+    7. (x != y)   -- (g) Si x es diferente de y
+    8. z = x < y; -- (h) Se asigna a z el resultado de evaluar si x es menor que y

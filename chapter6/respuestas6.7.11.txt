@@ -1,0 +1,3 @@
+
+1) El while sirve para definir un ciclo, es decir una serie de instrucciones que se repiten varias veces.
+    (a) Verdadero

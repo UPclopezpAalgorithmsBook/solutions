@@ -1,0 +1,12 @@
+
+1) Las instrucciones dentro del if se ejecutan cuando
+    (c) La condición es verdadera
+
+2) La sentencia de control if sirve para:
+    (a) Evaluar condiciones
+
+3) La sentencia de control if sirve para:
+    (a) Tomar decisiones
+
+4) ¿Cuál es valor final guardado en a?
+    (a) 3

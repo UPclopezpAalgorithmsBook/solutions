@@ -1,0 +1,17 @@
+
+1) Ordena la forma correcta de escribir la instrucción switch:
+
+    switch(condición){
+
+        case Número1 o Caracter1:
+            //instruciones
+            break;
+            
+        case Número2 o Caracter2:
+            //instruciones del case 2
+            break;
+
+        default:
+            //instruciones del default
+
+    }

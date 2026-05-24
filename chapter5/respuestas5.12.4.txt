@@ -36,6 +36,7 @@
 
 7. Obtener el tamaño en bytes de cada uno de los tipos de datos extendidos del lenguaje C++.
     #include <iostream>
+    using namespace std;
 
     int main() {
         cout << "char: " << sizeof(char) << " bytes\n";
@@ -51,6 +52,7 @@
 
 8. Obtener el tamaño en bits de cada uno de los tipos de datos extendidos del lenguaje C++.
     #include <iostream>
+    using namespace std;
 
     int main() {
         cout << "char: " << sizeof(char) * 8 << " bytes\n";
@@ -85,6 +87,7 @@
 
 10. Sumar dos números e imprimir su resultado.
     #include <iostream>
+    using namespace std;
 
     int main() {
         int a, b;
@@ -98,6 +101,7 @@
 
 11. Almacenar en dos variables diferentes dos números mayores a 255. Imprimir en pantalla lo siguiente:
     #include <iostream>
+    using namespace std;
 
     int main() {
         int a, b;

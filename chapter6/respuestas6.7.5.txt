@@ -1,0 +1,46 @@
+
+1) Cuando una variable contiene un valor cero, la condicional lo interpreta como:
+    (b) Falso
+
+2) Cuando una variable contiene un valor negativo, la condicional lo interpreta como:
+    (a) Verdadero
+
+3) Cuando una variable contiene un valor positivo, la condicional lo interpreta como:
+    (a) Verdadero
+
+4) La sentencia else siempre debe tener un if antes que ella
+    (a) Verdadero
+
+5) La sentencia else puede escribirse sin necesidad de tener un if antes
+    (b) Falso
+
+6) Las sentencias de condiciones "if" siempre tienen que tener una parte else
+    (b) Falso
+
+7) Se entra a la parte del "else" cuando la condición se evaluó como
+    (b) Falso
+
+8) La siguiente expresión se evalúa como !(7 < 8)
+    (b) Falso
+
+9) La siguiente expresión se evalúa como !(8 < 7)
+    (a) Verdadero
+
+10) La siguiente expresión se evalúa como (7 < 8)
+    (a) Verdadero
+
+11) La siguiente expresión se evalúa como !(8 > 7)
+    (b) Falso
+
+12) ¿El siguiente bloque de código es correcto?
+    (b) Falso
+
+13) Para ejecutar varias operaciones dentro de un if, hay que usar un bloque de instrucciones que
+    se encierra entre llaves { }
+    (a) Verdadero
+
+14) La evaluación de una condicional devuelve algún tipo de valor de tipo caracter
+    (b) Falso
+
+15) La sentencia if puede escribirse sola sin tener un else ligado a ella
+    (a) Verdadero

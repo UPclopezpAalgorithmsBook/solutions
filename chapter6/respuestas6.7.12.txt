@@ -1,0 +1,9 @@
+
+1) Relaciona las dos columnas de forma correcta:
+    1) El while repite las instrucciones que están entre sus llaves:     -- (a) hasta que su condición es falsa
+    2) Si la primera vez que se revisa la condición, ésta es falsa:      -- (d) las instrucciones del while nunca se ejecutan
+    3) Si la variable de la condición del while se evalúa como verdadero 
+        y no cambia dentro de las llaves:                                -- (e) el while se convierte en ciclo infinito
+    4) Cuando se implementa un while se debe revisar que la condición:   -- (b) sea verdadera, al menos la primera vez
+    5) La condición del while se escribe:                                -- (h) entre paréntesis después de la palabra while
+    6) Las instrucciones que se repiten son:                             -- (c) las que están entre las llaves del while

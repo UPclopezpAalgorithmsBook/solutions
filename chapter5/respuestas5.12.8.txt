@@ -3,6 +3,7 @@ Genere la resta de dichos números y finalmente imprima "La resta de los tres n�
 En este caso la variable valor contiene el resultado de la resta de los números a, b, c. → (dfd/dfd5.12.8_2.png)
 
     #include <iostream>
+    using namespace std;
 
     int main() {
         int a, b, c, valor;
@@ -26,6 +27,7 @@ cuadrada de 25 cm de lado a $240.00 con los mismos ingredientes que X. ¿Cuál d
 cuadrada cómo la pizza circular tendrán medidas distintas y costos distintos. → (dfd/dfd5.12.8_4.png)
 
     #include <iostream>
+    using namespace std;
 
     int main() {
         float diametro, lado;
@@ -71,6 +73,7 @@ el resultado debe dar con puntos decimales, y realiza las validaciones que tenga
 
     #include <iostream>
     #include <math.h>
+    using namespace std;
 
     int main() {
 
@@ -117,6 +120,7 @@ el resultado debe dar con puntos decimales, y realiza las validaciones que tenga
 con puntos decimales → (dfd/dfd5.12.8_8.png)
 
     #include <iostream>
+    using namespace std;
 
     int main() {
         float radio, altura, area;
@@ -140,6 +144,7 @@ con puntos decimales → (dfd/dfd5.12.8_8.png)
 Si hay números repetidos que los ordene y que además diga que hay números repetidos. → (dfd/dfd5.12.8_10.png)
 
     #include <iostream>
+    using namespace std;
 
     int main() {
 
@@ -167,6 +172,7 @@ Si hay números repetidos que los ordene y que además diga que hay números rep
 
 12. Algoritmo que reciba como entrada 4 números y que indique cuántos de ellos se repiten → (dfd/dfd5.12.8_12.png)
     #include <iostream>
+    using namespace std;
 
     int main() {
 
@@ -191,6 +197,7 @@ Si hay números repetidos que los ordene y que además diga que hay números rep
 
 14. Programa que reciba como entrada 5 números y que diga quién es el mayor de todos → (dfd/dfd5.12.8_14.png)
     #include <iostream>
+    using namespace std;
 
     int main() {
 
@@ -222,6 +229,7 @@ Si hay números repetidos que los ordene y que además diga que hay números rep
 16. Programa que te pida un carácter y te imprima el mismo pero en mayúscula. Si el usuario
 introduce el carácter en mayúscula, de todos modos lo imprime en mayúsculas. → (dfd/dfd5.12.8_16.png)
     #include <iostream>
+    using namespace std;
 
     int main() {
 
@@ -247,6 +255,7 @@ Toma en cuenta que estando en la UP la persona que entra podría tener hambre o 
 lo que provocaría tener que pasar por la cafetería o los baños respectivamente. → (dfd/dfd5.12.8_18.png)
 
     #include <iostream>
+    using namespace std;
 
     int main() {
 
