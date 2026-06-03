@@ -1,0 +1,55 @@
+
+1) Seleccione la respuesta correcta:
+    (e) Estará pidiendo un número al usuario hasta que el usuario introduzca un número igualo mayor a 100
+
+2) Seleccione la respuesta correcta de salida para cada uno de los códigos siguientes:
+    Código 1:
+        (d) Es un ciclo infinito, el while solo incluye la operación de cout porque no hay llaves,
+        y esto deja fuera la instrucción de incremento, la variable a solo cambia de valor hasta 
+        después de que termina el ciclo
+
+    Código 2:
+        (e) 0 2 4 6 8
+
+    Código 3:
+        (a) Es un ciclo infinito, la variable cont nunca cambia de valor y siempre es menor que 10
+
+    Código 4:
+        (b) 0 1 2 3 4
+
+    Código 5:
+        (c) Pide letras hasta que el usuario introduzca una z, luega escribe el número de vueltas que hizo el while
+
+3) Seleccione la respuesta correcta de salida para cada uno de los códigos siguientes:
+    Código 1:
+        (d) 1 2 3 4 5 6 7
+    
+    Código 2:
+        (c) 0 3 6 9 12 15 18
+
+    Código 3:
+        (e) Pinta 0 indefinidamente, es un ciclo infinito, la variable cont nunca cambia de valor y siempre es menor que 20    
+    
+    Código 4:
+        (a) Es un ciclo infinito, el while solo incluye la operación de cout porque no hay llaves, y esto deja fuera 
+        la instrucción de incremento, la variable a solo cambia de valor hasta después de que termina el ciclo 
+    
+    Código 5:
+        (b) Pide letras hasta que el usuario introduzca una q, luega escribe el número de vueltas que hizo el while
+    
+4) Relacione los siguientes bloques de código con su descripción corecta, para todos es válido:
+    Código 1:
+        (b) Recibe letras hasta que el usuario introduce una z
+    
+    Código 2:
+        (c) El programa pide letras mientras el usuario introduzca una a
+
+    Código 3:
+        (a) El programa repite la instrucción cont++; 19 veces
+
+5) Seleccione la respuesta correcta de salida para cada uno de los códigos siguientes:
+    Código 1:
+        (d) Pedirá un número al usuario mientras el número sea menor que 100
+    
+    Código 2:
+        (a) Produce una pantalla en blanco, la condición nunca se cumple y no entra al ciclo

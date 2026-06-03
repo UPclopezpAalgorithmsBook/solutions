@@ -1,0 +1,15 @@
+
+1) Selecciona la opción correcta de acuerdo al siguiente código:
+    (d) Pedirá un número al usuario mientras el número sea menor que 100
+
+2) Selecciona la opción correcta de acuerdo al siguiente código:
+    (a) Produce una pantalla en blanco, la condición nunca se cumple y no entra al ciclo
+
+3) Selecciona la opción correcta de acuerdo al siguiente código:
+    (e) Estará pidiendo un número al usuario hasta que el usuario introduzca un número igual o mayor a 100
+
+4) Selecciona la opción correcta de acuerdo al siguiente código:
+    (d) Pedirá un número al usuario solo una vez
+
+5) Selecciona la opción correcta de acuerdo al siguiente código:
+    (c) El código se cicla porque la variable n nunca se incrementa

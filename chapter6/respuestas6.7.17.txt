@@ -1,0 +1,12 @@
+1) Relaciona la respuesta adecuada para cada enunciado para la sentencia de for en lenguaje C:
+
+    1) Después del paréntesis del for                     -- d) se entra al cuerpo del for para ejecutar sus instrucciones
+    2) Si el for incluye dos o más instrucciones          -- f) se usan llaves para encerrarlas
+    3) Cada instrucción dentro del for debe terminar con  -- c) un punto y coma (;)
+    4) Dentro de la sentencia for, el punto y coma (;) es 
+        el símbolo de puntuación que separa               -- a) la inicialización, condición y la actualización
+    5) Mientras la condición se cumpla (sea verdadera)    -- d) se entra al cuerpo del for para ejecutar sus instrucciones
+    6) Cuando la condición es falsa                       -- g) el ciclo se rompe, y se continúa con la siguiente instrucción después del for
+    7) La instrucción de actualización se realiza         -- e) después de haber hecho las instrucciones del cuerpo del for
+    8) La parte de la condición se evalúa                 -- i) antes de hacer las instrucciones del cuerpo del ciclo for
+    9) La inicialización del contador del for se evalúa   -- b) solo la primera vez que entra al for

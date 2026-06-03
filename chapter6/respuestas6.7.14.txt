@@ -1,0 +1,7 @@
+
+1) Ordena la forma correcta de escribir la instrucción do...while:
+    do {
+        
+        //instrucciones que se repiten
+
+    } while(condición);

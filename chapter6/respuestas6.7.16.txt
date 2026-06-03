@@ -1,0 +1,27 @@
+
+1) Ordena la forma correcta de escribir la instrucción for:
+    for(inicialización; condición; actualización){
+
+    }
+
+2) Coloque como se deben acomodar las siguientes intrucciones, para que la instrucción 1 
+   y la instrucción 2 se ejecuten 10 veces y la instrucción 3 solo se realice una vez al término 
+   del for
+
+    for(int i = 0; i < 10; i++){
+        instrucción 1
+        instrucción 2
+    }
+
+    instrucción3
+
+3) Coloque como se deben acomodar las siguientes intrucciones, para que la instrucción 1 se
+   ejecute 8 veces, y la instrucción 2 y la instrucción 3 solo se realicen una vez después 
+   del for, en el orden dado.
+
+    for(int i = 0; i < 8; i++){
+        instrucción 1
+        instrucción 2
+    }
+
+    instrucción3

@@ -1,0 +1,54 @@
+1) Seleccione la respuesta correcta de salida para cada uno de los códigos siguientes:
+    Código 1:
+        (e) 11
+
+    Código 2:
+        (d) 15
+
+2) Selecciona la salida en la pantalla que le corresponda a cada bloque de código:
+    Código 1:
+        (d) 7 6 5 4 3 2 1
+    
+    Código 2:
+        (c) 7 6 5 4 3 2 1 0
+    
+    Código 3:
+        (e) 5 6 7 8 9 10
+
+    Código 4:
+        (h) No hay respuesta
+
+    Código 5:
+        (h) No hay respuesta
+
+3) Selecciona la salida en la pantalla que le corresponda a cada bloque de código:
+    Código 1:
+        (d) 20 18 16 14 12 10
+
+    Código 2:
+        (h) 0 5 10 15 20 25
+
+    Código 3:
+        (b) 3 5 7 9 11
+
+    Código 4:
+        (d) 20 18 16 14 12 10
+
+    Código 5:
+        (e) hola hola hola hola hola 5
+
+4) Seleccione la respuesta correcta de salida para cada uno de los códigos siguientes, (se pueden repetir repuestas)
+    Código 1:
+        (d) 20 18 16 14 12 10
+
+    Código 2:
+        (h) 0 5 10 15 20 25
+
+    Código 3:
+        (b) 3 5 7 9 11
+
+    Código 4:
+        (d) 20 18 16 14 12 10
+
+    Código 5:
+        (e) hola hola hola hola hola 5

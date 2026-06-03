@@ -1,0 +1,39 @@
+
+1) Escriba la respuesta correcta de salida para cada uno de los códigos siguientes:
+    (a) 1° Código
+        Respuesta: 15
+
+    (b) 2° Código
+        Respuesta: 11
+
+    (c) 3° Código
+        Respuesta: 3
+    
+    (d) 4° Código
+        Respuesta: 16
+    
+    (e) 5° Código
+        Respuesta: 3
+
+2) Escriba la salida en la pantalla que le corresponda a cada bloque de código de las siguientes opciones:
+
+    (a) 1° Código
+        Respuesta: (c) 0 1 2 3 4
+
+    (b) 2° Código
+        Respuesta: (e) 1 2 3 4
+
+    (c) 3° Código
+        Respuesta: (b) 0 1 2 3 4 5
+    
+    (d) 4° Código
+        Respuesta: (f) 1 2 3 4 5
+    
+    (e) 5° Código
+        Respuesta: (a) No despliega nada, nunca entra al ciclo
+
+    (f) 6° Código
+        Respuesta: (g) 0 2 4 6 8 10
+    
+    (g) 7° Código
+        Respuesta: (d) Es un ciclo infinito, la i no cambia de valor, falta asignación en la actualización

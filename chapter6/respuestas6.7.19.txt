@@ -1,0 +1,3 @@
+
+1) De acuerdo a las siguientes operaciones, ¿qué se imprime?
+    (e) Ninguna de las anteriores

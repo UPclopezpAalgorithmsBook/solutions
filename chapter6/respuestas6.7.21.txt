@@ -1,0 +1,614 @@
+2) Algoritmo que imprima todos los cuadrados perfectos que hay entre dos números. Nota que
+los números introducidos deben ser positivos.
+
+    #include <iostream>
+    #include <cmath>
+
+    using namespace std;
+
+    int main() {
+        int inicio, fin;
+
+        cout << "Ingrese el primer numero positivo: ";
+        cin >> inicio;
+
+        cout << "Ingrese el segundo numero positivo: ";
+        cin >> fin;
+
+        if (inicio < 0 || fin < 0) {
+            cout << "Error: los numeros deben ser positivos." << endl;
+            return 0;
+        }
+
+        if (inicio > fin) {
+            int aux = inicio;
+            inicio = fin;
+            fin = aux;
+        }
+
+        cout << "Cuadrados perfectos entre " << inicio << " y " << fin << ":" << endl;
+
+        for (int i = inicio; i <= fin; i++) {
+            int raiz = sqrt(i);
+
+            if (raiz * raiz == i) {
+                cout << i << " ";
+            }
+        }
+
+        return 0;
+    }
+
+4) Algoritmo que reciba como entrada 1 número y dependiendo del número introducido imprima
+la letra “X” n veces de forma horizontal y n veces de forma vertical.
+
+    #include <iostream>
+
+    using namespace std;
+
+    int main() {
+        int n;
+
+        cout << "Ingrese un numero: ";
+        cin >> n;
+
+        cout << "\nHorizontal:" << endl;
+
+        for (int i = 0; i < n; i++) {
+            cout << "X ";
+        }
+
+        cout << "\n\nVertical:" << endl;
+
+        for (int i = 0; i < n; i++) {
+            cout << "X" << endl;
+        }
+
+        return 0;
+    }
+
+6) Programa que pida un número como entrada y te imprima si es par o impar. Si es par, que te
+imprima la palabra Par n veces de forma horizontal; si es impar, que te imprima la palabra
+Impar n veces pero en diferentes líneas.
+
+    #include <iostream>
+
+    using namespace std;
+
+    int main() {
+        int n;
+
+        cout << "Ingrese un numero: ";
+        cin >> n;
+
+        if (n % 2 == 0) {
+            cout << "El numero es Par" << endl;
+
+            for (int i = 0; i < n; i++) {
+                cout << "Par ";
+            }
+        }
+        else {
+            cout << "El numero es Impar" << endl;
+
+            for (int i = 0; i < n; i++) {
+                cout << "Impar" << endl;
+            }
+        }
+
+        return 0;
+    }
+
+8) Programa que pida un número positivo n y que a partir del número 0 te imprima todos los
+números impares hasta llegar al númeron. Si n es negativo, que imprima “Error”.
+
+    #include <iostream>
+
+    using namespace std;
+
+    int main() {
+        int n;
+
+        cout << "Ingrese un numero positivo: ";
+        cin >> n;
+
+        if (n < 0) {
+            cout << "Error" << endl;
+        }
+        else {
+            cout << "Numeros impares:" << endl;
+
+            for (int i = 1; i <= n; i += 2) {
+                cout << i << " ";
+            }
+        }
+
+        return 0;
+    }
+
+10) Sumar todos los números pares entre 0 y n. El número n deberá ser introducido por teclado.
+Validar que n sea mayor que n.
+
+    #include <iostream>
+
+    using namespace std;
+
+    int main() {
+        int n;
+        int suma = 0;
+
+        cout << "Ingrese un numero mayor que 0: ";
+        cin >> n;
+
+        if (n <= 0) {
+            cout << "Error: el numero debe ser mayor que 0." << endl;
+        }
+        else {
+            for (int i = 0; i <= n; i++) {
+                if (i % 2 == 0) {
+                    suma += i;
+                }
+            }
+
+            cout << "La suma de los numeros pares entre 0 y "
+                << n << " es: " << suma << endl;
+        }
+
+        return 0;
+    }
+
+12) Realiza un programa que pida tres números al usuario. Estos números representan una fecha:
+día, mes y año. Lo que debe hacer el programa es validar que el día, mes y año sean válidos.
+Un año válido es aquel que es mayor o igual que cero y menor a 10,000; un mes válido es
+mayor a cero y menor a 13; Y un día válido es mayor a cero y menor a 29, 30 ó 31, según
+sea el caso . Considera que si es febrero, entonces máximo puede ser 29 días. El programa
+termina cuando la fecha es válida. Mientras solicitar la fecha.
+
+    #include <iostream>
+
+    using namespace std;
+
+    int main() {
+        int dia, mes, anio;
+        bool fechaValida = false;
+
+        while (!fechaValida) {
+            cout << "Ingrese el dia: ";
+            cin >> dia;
+
+            cout << "Ingrese el mes: ";
+            cin >> mes;
+
+            cout << "Ingrese el anio: ";
+            cin >> anio;
+
+            fechaValida = true;
+
+            if (anio < 0 || anio >= 10000) {
+                fechaValida = false;
+            }
+
+            if (mes < 1 || mes > 12) {
+                fechaValida = false;
+            }
+
+            int diasMes;
+
+            if (mes == 2) {
+                diasMes = 29;
+            }
+            else if (mes == 4 || mes == 6 || mes == 9 || mes == 11) {
+                diasMes = 30;
+            }
+            else {
+                diasMes = 31;
+            }
+
+            if (dia < 1 || dia > diasMes) {
+                fechaValida = false;
+            }
+
+            if (!fechaValida) {
+                cout << "Fecha invalida. Intente nuevamente.\n\n";
+            }
+        }
+
+        cout << "\nFecha valida." << endl;
+
+        return 0;
+    }
+
+
+14) Realiza un DFD y un programa computacional que: → (dfd/dfd6.7.21_14.png)
+    - Entrada: Un número n.
+    - Proceso: Sume todos los números menores a n pero mayores a 0, es decir entre el rango [0 .. n-1].
+    - Salida: Sumatoria o advertencia de valor incorrecto introducido
+
+    #include <iostream>
+
+    using namespace std;
+
+    int main() {
+        int n;
+        int suma = 0;
+
+        cout << "Ingrese un numero: ";
+        cin >> n;
+
+        if (n <= 0) {
+            cout << "Valor incorrecto." << endl;
+        }
+        else {
+            for (int i = 0; i < n; i++) {
+                suma += i;
+            }
+
+            cout << "La sumatoria es: " << suma << endl;
+        }
+
+        return 0;
+    }
+
+16) Sumar todos los números pares entre 0 y 100.
+
+    #include <iostream>
+
+    using namespace std;
+
+    int main() {
+        int suma = 0;
+
+        for (int i = 0; i <= 100; i += 2) {
+            suma += i;
+        }
+
+        cout << "La suma de los numeros pares entre 0 y 100 es: "
+            << suma << endl;
+
+        return 0;
+    }
+
+18) Sumar todos los números pares entre 0 y n.
+
+    #include <iostream>
+
+    using namespace std;
+
+    int main() {
+        int n;
+        int suma = 0;
+
+        cout << "Ingrese un numero: ";
+        cin >> n;
+
+        if (n < 0) {
+            cout << "Valor incorrecto." << endl;
+        }
+        else {
+            for (int i = 0; i <= n; i++) {
+                if (i % 2 == 0) {
+                    suma += i;
+                }
+            }
+
+            cout << "La suma es: " << suma << endl;
+        }
+
+        return 0;
+    }
+
+20) Genere un algoritmo que sume los números entre n y m, validar que n<m.
+
+    #include <iostream>
+
+    using namespace std;
+
+    int main() {
+        int n, m;
+        int suma = 0;
+
+        cout << "Ingrese n: ";
+        cin >> n;
+
+        cout << "Ingrese m: ";
+        cin >> m;
+
+        if (n >= m) {
+            cout << "Error: n debe ser menor que m." << endl;
+        }
+        else {
+            for (int i = n; i <= m; i++) {
+                suma += i;
+            }
+
+            cout << "La suma entre " << n
+                << " y " << m
+                << " es: " << suma << endl;
+        }
+
+        return 0;
+    }
+
+22) Se desea tener un menú de opciones que de acuerdo a la opción seleccionada realice dicha
+    operación:
+    (a) La suma de todos los números menores a un número n.
+    (b) Calcular cuántos números primos hay entre 0 y n.
+    (c) Imprimir una pirámide de tamaño n y decir cuántos * hay.
+    (d) Salir
+    - De acuerdo a las opciones de arriba introducir el número de la izquierda para saber la
+    opción a realizar.
+    - Después de realizar la opción, deberá imprimirse el menu y volver a dar la opción.
+    - El programa termina cuando el usuario selecciona la opción 4
+
+    #include <iostream>
+
+    using namespace std;
+
+    bool esPrimo(int num) {
+        if (num < 2)
+            return false;
+
+        for (int i = 2; i < num; i++) {
+            if (num % i == 0)
+                return false;
+        }
+
+        return true;
+    }
+
+    int main() {
+        int opcion;
+
+        do {
+            cout << "\n===== MENU =====" << endl;
+            cout << "1. Suma de numeros menores a n" << endl;
+            cout << "2. Cantidad de numeros primos entre 0 y n" << endl;
+            cout << "3. Imprimir piramide" << endl;
+            cout << "4. Salir" << endl;
+            cout << "Opcion: ";
+            cin >> opcion;
+
+            if (opcion == 1) {
+                int n, suma = 0;
+
+                cout << "Ingrese n: ";
+                cin >> n;
+
+                for (int i = 0; i < n; i++) {
+                    suma += i;
+                }
+
+                cout << "Suma = " << suma << endl;
+            }
+            else if (opcion == 2) {
+                int n, contador = 0;
+
+                cout << "Ingrese n: ";
+                cin >> n;
+
+                for (int i = 0; i <= n; i++) {
+                    if (esPrimo(i))
+                        contador++;
+                }
+
+                cout << "Cantidad de primos = " << contador << endl;
+            }
+            else if (opcion == 3) {
+                int n;
+                int totalAsteriscos = 0;
+
+                cout << "Ingrese el tamanio de la piramide: ";
+                cin >> n;
+
+                for (int i = 1; i <= n; i++) {
+                    for (int j = 1; j <= i; j++) {
+                        cout << "*";
+                        totalAsteriscos++;
+                    }
+                    cout << endl;
+                }
+
+                cout << "Total de * = " << totalAsteriscos << endl;
+            }
+
+        } while (opcion != 4);
+
+        cout << "Programa finalizado." << endl;
+
+        return 0;
+    }
+
+24) Analiza el siguiente programa y escribe la salida en pantalla del código:
+    Respuesta: Vez 0
+               Vez 1
+               Vez 2
+               Vez 3
+               Vez 4
+               Vez 5
+               Vez 6
+               Vez 7
+               Vez 8
+               Vez 9
+               Programa terminado 
+
+26) Realiza un programa que imprima lo siguiente:
+    Num: 100
+    Num: 98
+    Num: 96
+    . . .
+    Num: 0
+
+    #include <iostream>
+
+    using namespace std;
+
+    int main() {
+
+        for(int i = 100; i >= 0; i+=2){
+            cout << "Num: " << i << endl;
+        }
+
+    }
+
+28) Realiza un programa que imprima lo siguiente:
+    Num: x + 1
+    Num: x + 2
+    Num: x + 3
+    . . .
+    Num: y
+    
+    #include <iostream>
+
+    using namespace std;
+
+    int main() {
+        int x, y;
+
+        cout << "Ingrese x: ";
+        cin >> x;
+
+        cout << "Ingrese y: ";
+        cin >> y;
+
+        if (x >= y) {
+            cout << "Error: x debe ser menor que y." << endl;
+        }
+        else {
+            for (int i = x + 1; i <= y; i++) {
+                cout << "Num: " << i << endl;
+            }
+        }
+
+        return 0;
+    }
+
+
+30) Realiza un programa que imprima lo siguiente pero con ciclo do . . . while:
+
+    #include <iostream>
+
+    using namespace std;
+
+    int main() {
+        int i = 100;
+
+        while(i>= 0){
+            cout << "Num: " << i << endl;
+            i -= 2;
+        }
+
+    }
+
+32) Realiza un DFD y un programa computacional que: → (dfd/dfd6.7.21_32.png)
+    - Entrada: un número n.
+    - Proceso: sume todos los números menores a n pero mayores a 0, es decir entre el rango [0 ... n-1].
+    - Salida: sumatoria ó advertencia de valor incorrecto introducido.
+
+    #include <iostream>
+
+    using namespace std;
+
+    int main() {
+        int n;
+        int suma = 0;
+
+        cout << "Ingrese un numero: ";
+        cin >> n;
+
+        if (n <= 0) {
+            cout << "Valor incorrecto." << endl;
+        }
+        else {
+            for (int i = 0; i < n; i++) {
+                suma += i;
+            }
+
+            cout << "Sumatoria = " << suma << endl;
+        }
+
+        return 0;
+    }
+
+34) Genere un algoritmo que sume los números entre n y m, validar que n < m.
+
+    #include <iostream>
+
+    using namespace std;
+
+    int main() {
+        int n, m;
+        int suma = 0;
+
+        cout << "Ingrese n: ";
+        cin >> n;
+
+        cout << "Ingrese m: ";
+        cin >> m;
+
+        if (n >= m) {
+            cout << "Error: n debe ser menor que m." << endl;
+        }
+        else {
+            for (int i = n; i <= m; i++) {
+                suma += i;
+            }
+
+            cout << "Suma = " << suma << endl;
+        }
+
+        return 0;
+    }
+
+36) Hacer algoritmo que reciba 3 números (X, Y, Z) los cuáles significan una fecha (día, mes y año), 
+    comprobar que sea válida, si no es válido que imprima un mensaje de error y que pida nuevamente los 3 números. 
+    Si es válido que imprima la fecha de la siguiente manera: “Día X del mes Y del año Z”.
+
+    #include <iostream>
+
+    using namespace std;
+
+    int main() {
+        int dia, mes, anio;
+        bool valida = false;
+
+        while (!valida) {
+            cout << "Ingrese dia: ";
+            cin >> dia;
+
+            cout << "Ingrese mes: ";
+            cin >> mes;
+
+            cout << "Ingrese anio: ";
+            cin >> anio;
+
+            valida = true;
+
+            if (anio < 0 || anio > 9999)
+                valida = false;
+
+            if (mes < 1 || mes > 12)
+                valida = false;
+
+            int diasMes;
+
+            if (mes == 2)
+                diasMes = 29;
+            else if (mes == 4 || mes == 6 || mes == 9 || mes == 11)
+                diasMes = 30;
+            else
+                diasMes = 31;
+
+            if (dia < 1 || dia > diasMes)
+                valida = false;
+
+            if (!valida) {
+                cout << "\nFecha invalida. Intente nuevamente.\n" << endl;
+            }
+        }
+
+        cout << "\nDia " << dia
+            << " del mes " << mes
+            << " del anio " << anio << endl;
+
+        return 0;
+    }
