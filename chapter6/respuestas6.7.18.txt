@@ -39,16 +39,90 @@
 
 4) Seleccione la respuesta correcta de salida para cada uno de los códigos siguientes, (se pueden repetir repuestas)
     Código 1:
-        (d) 20 18 16 14 12 10
+        (a) 13
 
     Código 2:
-        (h) 0 5 10 15 20 25
+        (b) 18
 
     Código 3:
-        (b) 3 5 7 9 11
+        (d) 4
 
     Código 4:
-        (d) 20 18 16 14 12 10
+        (f) 3
+
+
+5) Selecciona la salida en la pantalla que le corresponda a cada bloque de código:
+    Código 1:
+        (g) 0 1 2 3 4 5
+
+    Código 2:
+        (a) 1 2 3 4 5
+
+    Código 3:
+        (h) No está la respuesta
+
+    Código 4:
+        (c) 1 3 5
 
     Código 5:
-        (e) hola hola hola hola hola 5
+        (j) No despliega nada, nunca entra al ciclo
+    
+    Código 6:
+        (e) 0 2 4 6 8 10
+
+    Código 7:
+        (i) Se imprime el número 0 en un ciclo infinito, la i siempre es 0
+
+
+6) Selecciona la salida en la pantalla que le corresponda a cada bloque de código:
+    Código 1:
+        (i) 5 4 3 2 1
+
+    Código 2:
+        (k) 9 8 7 6 5 4 3 2 1 0
+
+    Código 3:
+        (e) 3 4 5 6 7 8 9
+
+    Código 4:
+        (b) 5 7 9 11 13 15
+
+    Código 5:
+        (m) 18 16 14 12 10 8
+    
+    Código 6:
+        (g) 0 5 10 15 20 25
+
+    Código 7:
+        (d) 2 4 6 8 10 12 14 16 18 20
+
+    Código 8:
+        (a) hola hola hola hola hola 7
+
+7) Que resultado despliega en pantalla el siguiente código
+    (a) 1234
+        1234
+        1234
+        1234
+
+8) Que resultado despliega en pantalla el siguiente código:
+    (a) j = 1 i = 1 j = 1 i = 2 j = 1 i = 3 j = 1 i = 4
+        j = 2 i = 1 j = 2 i = 2 j = 2 i = 3 j = 2 i = 4
+        j = 3 i = 1 j = 3 i = 2 j = 3 i = 3 j = 3 i = 4
+        j = 4 i = 1 j = 4 i = 2 j = 4 i = 3 j = 4 i = 4
+
+
+9) Que resultado despliega en pantalla el siguiente código:
+    (a) 30
+
+10) Que resultado despliega en pantalla el siguiente código:
+    (a) 24
+
+11) Que resultado despliega en pantalla el siguiente código:
+    (a) 24
+
+12) Que resultado despliega en pantalla el siguiente código:
+    (a) 9
+
+13) Que resultado despliega en pantalla el siguiente código:
+    (a) 18
